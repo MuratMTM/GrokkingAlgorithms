@@ -1,7 +1,5 @@
 import Foundation
 
-let arr = [45, 53, 78, 34, 58, 56, 73]
-
 func simpleSearch(arr: [Int], number: Int) -> Int {
     for i in 0..<arr.count {
         if arr[i] == number {
@@ -11,6 +9,7 @@ func simpleSearch(arr: [Int], number: Int) -> Int {
     return -1
 }
 
+let arr = [45, 53, 78, 34, 58, 56, 73]
 let searchNumber = 78
 let result = simpleSearch(arr: arr, number: searchNumber)
 
